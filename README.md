@@ -1,2 +1,77 @@
 # codingan-annivarsarry
-By:Bayu
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Happy Anniversary</title>
+<style>
+  body{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#ff6b9d,#ffd1dc);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+  }
+  .card{
+    background:white;
+    width:340px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+    animation:fadeIn 1.2s ease;
+  }
+  @keyframes fadeIn{
+    from{opacity:0; transform:scale(0.8);} to{opacity:1; transform:scale(1);}
+  }
+  h1{
+    color:#ff3f7f;
+    margin-bottom:10px;
+  }
+  p{
+    font-size:15px;
+    color:#444;
+    line-height:1.5;
+  }
+  .heart{
+    font-size:45px;
+    margin:15px 0;
+    animation:beat 1s infinite alternate;
+  }
+  @keyframes beat{
+    from{transform:scale(1);} to{transform:scale(1.25);}
+  }
+  .btn{
+    margin-top:15px;
+    padding:10px 20px;
+    background:#ff3f7f;
+    border:none;
+    color:white;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.3s;
+  }
+  .btn:hover{background:#ff174f;}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h1>Happy Anniversary
+    Untuk Wulan Kumaira ❤️</h1>
+  <div class="heart">💗</div>
+  <p>
+    Terima kasih sudah hadir di hidupku.
+    Kamu adalah kebahagiaan yang setiap hari aku syukuri.
+    Semoga cinta kita selalu hangat dan tetap bersama selamanya.
+  </p>
+  <button class="btn">I Love You</button>
+</div>
+
+</body>
+</html>
